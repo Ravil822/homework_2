@@ -1,0 +1,20 @@
+body {
+    background: url(/assets/images/roughcloth.png)
+} 
+
+header {
+    background-color: white;
+    border-bottom: 2px solid lightgray;
+}
+
+h2 {
+    border-bottom: 2px solid lightgray;
+
+}
+
+
+
+.main-content {
+    background-color: white;
+    margin-top: 20px;
+}
