@@ -7,21 +7,26 @@ header {
     border-bottom: 2px solid lightgray;
 }
 .container {
-    margin-left: 50px;
     width: 100%;
 }
 
-h2 {
+h3 {
+    padding: 10px;
+    color: #17a2b8;
     border-bottom: 2px solid lightgray;
 
 }
+
+a {
+    color: grey;
+  }
 
 
 
 .main-content {
     background-color: white;
     margin-top: 20px;
-    width: 45%;
+    width: 75%;
 }
 
 
@@ -38,5 +43,5 @@ footer {
     color: #cccccc;
     text-align: center;
     background: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #17a2b8;
     height: 50px;
