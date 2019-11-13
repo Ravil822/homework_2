@@ -27,7 +27,10 @@ a {
     background-color: white;
     margin-top: 20px;
     width: 75%;
+    padding:20px;
 }
+
+
 
 
 img {
@@ -46,5 +49,7 @@ footer {
     border-top: 8px solid #17a2b8;
     height: 50px;
 
-
+    @media (max-width: 479px) {
+        body {
+            font-size: 13px;
     
