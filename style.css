@@ -30,9 +30,6 @@ a {
     padding:20px;
 }
 
-
-
-
 img {
     float: left;
     margin-right: 15px;
@@ -48,8 +45,33 @@ footer {
     background: #666666;
     border-top: 8px solid #17a2b8;
     height: 50px;
+}
+.thumbnail {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-    @media (max-width: 479px) {
-        body {
-            font-size: 13px;
+.caption {
+    position: absolute;
+    top: 65%;
+    height: 35px;
+    left: 0;
+    font-size: 20px;
+    color: #ffffff;
+    width: 250px;
+    background-color: #17a2b8;
+    
+}
+
+
+@media (min-width: 768px){
+    section {
+      max-width: 100%;
+    }  
+
+@media (min-width: 980px){
+    section {
+      max-width: 70%;
+    } 
     
